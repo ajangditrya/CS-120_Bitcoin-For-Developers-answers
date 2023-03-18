@@ -1,0 +1,503 @@
+1.
+How does a new node connect to others on the network?
+
+a.
+By randomly pinging IP addresses on Bitcoin ports looking for a response.
+
+b.
+The Bitcoin core client contains "DNS seeds" to help the bootstrapping process.
+
+c.
+The Bitcoin core client is regularly updated with a complete copy of the network graph.
+
+Answer. b
+
+2.
+Which of the following best describes how Bitcoins are transferred from one user to another?
+
+a.
+The Bitcoin ledger is updated to debit one account and credit another
+
+b.
+Every 10 mins. miners vote on the appropriate balance for every account
+
+c.
+Every transaction consumes one or more outputs, UTXOs, to create new outputs
+
+Answer. c
+
+3.
+Which of the following best describes why Bitcoin developers don't control the Bitcoin ecosystem?
+
+a.
+The large Bitcoin exchanges can approve which developers work on the core implementation
+
+b.
+All Bitcoin miners must vote on any proposed software updates before any changes are added to the Bitcoin code repository
+
+c.
+Bitcoin is an open source project, so anyone can make their own version of it and others in the ecosystem can decide which version to run
+
+Answer. c
+
+4.
+Bitcoin is an "open" blockchain, while some other blockchain systems are not. Which of the following is a key feature of an open blockchain?
+
+a.
+Anyone anywhere can use and participate in the blockchain
+
+b.
+All of the participants in the blockchain are known and listed transparently
+
+c.
+A high proportion of the participants actively participate in the blockchain's governance process
+
+Answer. a
+
+5.
+What does it mean when a transaction's status is "unconfirmed"?
+
+a.
+It has yet to be mined and included in a block
+
+b.
+The network has not yet validated the transaction
+
+c.
+The miners have yet to vote on when the transaction should be included in a block
+
+Answer. a
+
+6.
+Which of the following best differentiates between cryptographic signatures and hash functions?
+
+a.
+Signatures are used for encryption purposes, while hash functions are used as identifiers.
+
+b.
+Signatures are used to identify data, while a hash is used to assure that data is authentic and untampered with
+
+c.
+A hash is used to identify data, while a signature is used to assure that data is authentic and untampered with
+
+Answer. c
+
+7.
+Which of the following is a sought-after feature of asymmetric encryption that has led to it being widely adopted?
+
+a.
+It uses fewer server resources to encrypt and decrypt
+
+b.
+It does not require a secure key transfer between users
+
+c.
+It uses algorithms that are more secure than other forms of encryption
+
+Answer. b
+
+8.
+Which of the following best explains the functional difference between public and private keys?
+
+a.
+Public keys are public and private keys are private
+
+b.
+Public keys are used to encrypt data, while private are used to decrypt and/or sign data
+
+c.
+Public keys can be used to decrypt and/or sign data, while private keys are used to encrypt data
+
+Answer. b
+
+9.
+Why was asymmetric cryptography such an improvement to symmetric cryptography when it comes to securely encrypting and transferring data?
+
+a.
+A symmetric key is a very large file which makes it difficult to exchange online
+
+b.
+Asymmetric cryptography proved to be much faster and more secure than symmetric cryptography which means that key pairs can be computed much faster and more securely
+
+c.
+Data can be encrypted with a public key, but only decrypted with the corresponding private key removing the challenge of securely transferring the single key in symmetric cryptography
+
+Answer. c
+
+10.
+Which of the following best summarizes the relationship between Bitcoin addresses and cryptographic keys?
+
+a.
+A standard Bitcoin address is derived from a public key through a series of hash functions
+
+b.
+A Bitcoin address is the hash of a secret number which is then encrypted with a public key
+
+c.
+Both a public and the corresponding private key are required to generate a Bitcoin address
+
+Answer. a
+
+11.
+What do you need to be able to encrypt data to be read only by a specific person or entity?
+
+a.
+Any public key
+
+b.
+The public key that corresponds to that person or entities private key
+
+c.
+Their public key and a randomly-generated number that seeds the encryption algorithm
+
+Answer. b
+
+12.
+How do cryptographic signatures help to prevent fraudulent Bitcoin transactions?
+
+a.
+Three or more miners are required to sign a transaction before it is considered valid
+
+b.
+Cryptographic signatures are used as a method for voting on the authenticity of any transaction on the blockchain
+
+c.
+Only the person or entity in possession of the private key can create the signature necessary to produce a valid transaction
+
+Answer. c
+
+13.
+Which of the following best describes what a digital signature is?
+
+a.
+A very large prime number
+
+b.
+A complex and unique mathematical formula
+
+c.
+Two numbers commonly referred to as the R and S values
+
+Answer. c
+
+14.
+Which of the following best describes what a SIGHASH is?
+
+a.
+A hashing method used to hash a transaction prior to signing
+
+b.
+A series of hashes applied to a signature prior to broadcasting the transaction
+
+c.
+A way of indicating which part of a transaction's data was used in the creation of a signature
+
+Answer. c
+
+15.
+What data do you need to sign a message?
+
+a.
+The message and the public key
+
+b.
+The message and the private key
+
+c.
+The message and both the public and private keys
+
+Answer. b
+
+16.
+Which of the following is a feature of hashing that Bitcoin makes use of?
+
+a.
+A hash function can be used to encrypt data
+
+b.
+A hash can be used as a unique identifier of data
+
+c.
+A hash can be used to delay the release of data via its encryption functions
+
+Answer. b
+
+17.
+Which of the following is an accurate statement about how the Bitcoin network adjusts the mining difficulty level?
+
+a.
+The hashing algorithm used in mining is adjusted by the software every two weeks
+
+b.
+The number of zeros that block hash must start with is voted on by all miners every 2016 blocks
+
+c.
+The number of zeros that a block hash must start with is adjusted by the software every 2016 blocks
+
+Answer. c
+
+18.
+Which of the following is the name of the hashing enabled process used in Bitcoin mining?
+
+a.
+Merkle Trees
+
+b.
+Proof-of-Work
+
+c.
+Transaction IDs
+
+Answer. b
+
+19.
+Which of the following is an accurate statement about the variety of hashing algorithms?
+
+a.
+Hashing was invented for the Bitcoin protocol
+
+b.
+There are a wide variety of hashing algorithms available
+
+c.
+There are currently only 3 hashing algorithms that are considered secure
+
+Answer. b
+
+20.
+Which of the following is a feature used to help prevent fraud in Bitcoin transactions?
+
+a.
+SHA256 encryption, as it is the most secure algorithm
+
+b.
+Base58, as inaccurate transactions will not be properly encoded
+
+c.
+Merkle Trees, as any change to any transactions is the tree would alter the final hash
+
+Answer. c
+
+21.
+What is one reason hex is a popular encoding choice and is used heavily in Bitcoin?
+
+a.
+Hex is a much faster encoding process than Base64
+
+b.
+Hex requires more computational power but is more secure
+
+c.
+Hex works better than decimal for displaying binary values to humans
+
+Answer. c
+
+22.
+What is the utility of a version prefix in Bitcoin addresses?
+
+a.
+The prefix makes the address more easily machine readable
+
+b.
+To differentiate between types of address which helps to prevent errors
+
+c.
+To show which version of Bitcoin was being used when the address was created
+
+Answer. b
+
+23.
+Which of the following is true of "block height"?
+
+a.
+A hashed block height number is the preferred way to identify a block
+
+b.
+A Bitcoin block can be identified either by its hash or its block height number
+
+c.
+A block's height may change when the mining difficulty adjusts, making it difficult to use as an identifier
+
+Answer. b
+
+24.
+One common encoding method used in cryptography is DER. Which of the following is true of the DER encoding method?
+
+a.
+DER tags are very similar to hex tags which can create some confusion
+
+b.
+DER uses a Tag-Length-Value format where the tag is often the type of data
+
+c.
+DER tags are not widely used as they have been replaced with a key-value system
+
+Answer. b
+
+25.
+Which of the following is a reason why someone may want to run a Bitcoin full node?
+
+a.
+Because they can earn money from validating transactions
+
+b.
+Because they wish to be able to independently validate all transactions on the network
+
+c.
+Because running a full node will allow them to have their transactions treated as a priority
+
+Answer. b
+
+26.
+How does the Bitcoin daemon communicate with other programs?
+
+a.
+RPC
+
+b.
+JSON
+
+c.
+REST API
+
+Answer. a
+
+27.
+Which of the following is one of the primary functions of a Bitcoin wallet?
+
+a.
+To keep a list of friendly nodes
+
+b.
+To mine transactions to earn fees
+
+c.
+To create and maintain public and private keys
+
+Answer. c
+
+28.
+The Bitcoin daemon often displays transaction data in what encoding format?
+
+a.
+DER
+
+b.
+Hex
+
+c.
+RPC
+
+Answer. b
+
+29.
+Which scripts do nodes check when validating a transaction?
+
+a.
+The unlocking script
+
+b.
+The locking and unlocking scripts
+
+c.
+The locking, unlocking, and mining scripts
+
+Answer. b
+
+30.
+Which of the following statements about Bitcoin transactions and scripts is true?
+
+a.
+Value is locked to a script using a Bitcoin address
+
+b.
+Bitcoin is tied to an address with at least two locking scripts
+
+c.
+Value is locked to an address with a locking script in a transaction output
+
+Answer. c
+
+31.
+What is a mempool?
+
+a.
+A collection of transactions that have been verified but not yet included in a block
+
+b.
+A collection of transactions that have been rejected for not meeting consensus rules
+
+c.
+A way to measure the percentage of valid transactions being broadcast to the network
+
+Answer. a
+
+32.
+Which of the following best describes the Bitcoin scripting language?
+
+a.
+Bitcoin script is a fork of C++
+
+b.
+Bitcoin script is a Forth-like reverse-polish notation stack-based execution language
+
+c.
+Bitcoin script is a Forth-like reverse-polish notation object-oriented execution language
+
+Answer. b
+
+33.
+When a node receives a new block, which checks does it run on the transactions in that block?
+
+a.
+Validation of the block header and the Merkle root
+
+b.
+Signature validation of all transactions in the block
+
+c.
+Signature validation, validation of the block header, and the Merkle root
+
+Answer. c
+
+34.
+Which of the following is a potential consequence of a hard fork?
+
+a.
+Latency on the network
+
+b.
+Mining nodes may crash
+
+c.
+A partition or split of the network
+
+Answer. c
+
+35.
+Why will two versions of the same transaction, a double spend, not be included in the same block?
+
+a.
+A miner could only collect reduced fees on a double spend transaction
+
+b.
+The network relies on the majority of miners being honest to prevent this issue
+
+c.
+Miners would not benefit from including a double spend as that block would be rejected by the network
+
+Answer. c
+
+36.
+When faced with conflicting data, what measure will a miner use to choose which chain to build on top of?
+
+a.
+A miner will build on top of whatever block they saw first
+
+b.
+A miner will build on top of the chain with the most cumulative Proof-of-Work
+
+c.
+A miner will build on top of the most advantageous block, for example a block that they mined and gives them a mining reward
+
+Answer. b
